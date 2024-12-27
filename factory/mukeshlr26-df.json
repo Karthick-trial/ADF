@@ -1,0 +1,9 @@
+{
+	"name": "mukeshlr26-df",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c7e617c5-f0a2-4f0f-827a-145015ac4223",
+		"tenantId": "edc38ee7-4efc-467d-af8b-109ba14e1f1a"
+	}
+}

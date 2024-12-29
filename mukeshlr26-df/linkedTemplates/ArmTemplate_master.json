@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'LS2'"
 		},
+		"LS3_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'LS3'"
+		},
 		"LKforLK1_KeyVault_properties_typeProperties_baseUrl": {
 			"type": "string",
 			"defaultValue": "https://keyvaulttrial5.vault.azure.net/"
@@ -55,6 +59,9 @@
 					},
 					"LS2_connectionString": {
 						"value": "[parameters('LS2_connectionString')]"
+					},
+					"LS3_connectionString": {
+						"value": "[parameters('LS3_connectionString')]"
 					},
 					"LKforLK1_KeyVault_properties_typeProperties_baseUrl": {
 						"value": "[parameters('LKforLK1_KeyVault_properties_typeProperties_baseUrl')]"

@@ -11,6 +11,9 @@
 		"LS2_connectionString": {
 			"value": ""
 		},
+		"LS3_connectionString": {
+			"value": ""
+		},
 		"LKforLK1_KeyVault_properties_typeProperties_baseUrl": {
 			"value": "https://keyvaulttrial5.vault.azure.net/"
 		},

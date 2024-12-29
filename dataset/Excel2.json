@@ -1,0 +1,42 @@
+{
+	"name": "Excel2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Sheet1",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Emp_details_with_gender.xlsx",
+				"container": "input"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Emp_No",
+				"type": "String"
+			},
+			{
+				"name": "Emp_Name",
+				"type": "String"
+			},
+			{
+				"name": "Emp_Salary",
+				"type": "String"
+			},
+			{
+				"name": "Dep_ID",
+				"type": "String"
+			},
+			{
+				"name": "Gender",
+				"type": "String"
+			}
+		]
+	}
+}
